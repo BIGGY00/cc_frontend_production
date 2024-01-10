@@ -9,7 +9,7 @@ import { BsInfoCircle } from "react-icons/bs";
 import { getCurrentUser, logout } from "../../../services/auth.service";
 import { useRouter } from "next/navigation";
 import { Signer } from "ethers";
-import Logo from "../../../assets/photos/Logo.png";
+import Logo from "../../../public/photos/Logo.png"
 import Image from "next/image";
 
 const Transfer = () => {
