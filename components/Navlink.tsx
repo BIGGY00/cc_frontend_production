@@ -1,5 +1,5 @@
 import React from "react";
-import { NavlinkProps } from "@/dto/NavlinkProps";
+import { NavlinkProps } from "../dto/NavlinkProps";
 const Navlink = ({ name, clicked }: NavlinkProps) => {
   return (
     <div

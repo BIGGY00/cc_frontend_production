@@ -1,9 +1,9 @@
 import React from "react";
-import ManyCoins from "@/assets/photos/ManyCoins.png";
+import ManyCoins from "../public/photos/ManyCoins.png";
 import Image from "next/image";
-import ForwardGreen from "@/assets/icons/ForwardGreen.svg";
-import ForwardWhite from "@/assets/icons/ForwardWhite.svg";
-import Logo from "@/assets/photos/Logo.png";
+import ForwardGreen from "../public/icons/ForwardGreen.svg";
+import ForwardWhite from "../public/icons/ForwardWhite.svg";
+import Logo from "../public/photos/Logo.png";
 
 const WelcomePage = () => {
   return (

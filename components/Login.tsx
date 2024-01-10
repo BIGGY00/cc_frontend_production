@@ -2,9 +2,9 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import Close from "@/assets/icons/Close.svg";
+import Close from "../public/icons/Close.svg";
 import { useRouter } from "next/navigation";
-import { login, getCurrentUser } from "@/services/auth.service";
+import { login, getCurrentUser } from "../services/auth.service";
 
 interface LoginProps {
   onClose: () => void;

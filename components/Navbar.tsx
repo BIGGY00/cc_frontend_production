@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 import Navlink from "./Navlink";
 import Image from "next/image";
-import Logo from "@/assets/photos/Logo.png";
-import useOpenLogin from "@/utils/useOpenLogin";
-import useOpenSignup from "@/utils/useOpenSignup";
-import BurgerMenu from "@/assets/icons/Burger-Menu.svg";
+import Logo from "../public/photos/Logo.png";
+import useOpenLogin from "../utils/useOpenLogin";
+import useOpenSignup from "../utils/useOpenSignup";
+import BurgerMenu from "../public/icons/Burger-Menu.svg";
 
 export interface NavbarProps {
   refName: string;

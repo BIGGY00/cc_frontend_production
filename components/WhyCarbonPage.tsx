@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import PurpleCoin from "@/assets/photos/PurpleCoin.png";
+import PurpleCoin from "../public/photos/PurpleCoin.png";
 const WhyCarbonPage = () => {
   return (
     <div className="flex flex-col md:flex-row h-[840px] w-full items-center justify-center md:px-24 gap-12 xl:gap-80">

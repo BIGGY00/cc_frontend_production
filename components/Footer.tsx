@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React from "react";
-import Logo from "@/assets/photos/Logo.png";
-import Visa from "@/assets/photos/VisaLogo.png";
-import Mastercard from "@/assets/photos/MastercardLogo.png";
-import Bitcoin from "@/assets/photos/BitcoinLogo.png";
-import Facebook from "@/assets/photos/FacebookLogo.png";
-import Instagram from "@/assets/photos/InstagramLogo.png";
-import Youtube from "@/assets/photos/YoutubeLogo.png";
-import XTwitter from "@/assets/photos/XLogo.png";
-import Linkedin from "@/assets/photos/LinkedinLogo.png";
+import Logo from "../public/photos/Logo.png";
+import Visa from "../public/photos/VisaLogo.png";
+import Mastercard from "../public/photos/MastercardLogo.png";
+import Bitcoin from "../public/photos/BitcoinLogo.png";
+import Facebook from "../public/photos/FacebookLogo.png";
+import Instagram from "../public/photos/InstagramLogo.png";
+import Youtube from "../public/photos/YoutubeLogo.png";
+import XTwitter from "../public/photos/XLogo.png";
+import Linkedin from "../public/photos/LinkedinLogo.png";
 import Link from "next/link";
 const Footer = () => {
   return (

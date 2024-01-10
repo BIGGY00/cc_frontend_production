@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import Close from "@/assets/icons/Close.svg";
+import Close from "../public/icons/Close.svg";
 import { useRouter } from "next/navigation";
-import { register, } from "@/services/auth.service";import { access } from "fs";
+import { register, } from "../services/auth.service";import { access } from "fs";
 ;
 interface SignupProps {
   onClose: () => void;

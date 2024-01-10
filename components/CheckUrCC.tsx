@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import Tree from "@/assets/photos/Tree.png";
-import Arrow from "@/assets/photos/Arrow.png";
-import CarbonCoin from "@/assets/photos/Carbon-coin.png";
+import Tree from "../public/photos/Tree.png";
+import Arrow from "../public/photos/Arrow.png";
+import CarbonCoin from "../public/photos/Carbon-coin.png";
 enum UnitType {
   Acres = "Acres",
   Hectares = "Hectares",
