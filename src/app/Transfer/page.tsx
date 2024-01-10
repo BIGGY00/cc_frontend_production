@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { ethers } from "ethers";
 import { contractABI, contractAddress } from "../../../components/utils/constants";
 import Loader from "../../../components/Loader";
 import { AiFillPlayCircle } from "react-icons/ai";
@@ -8,9 +7,12 @@ import { FaWallet } from "react-icons/fa";
 import { BsInfoCircle } from "react-icons/bs";
 import { getCurrentUser, logout } from "../../../services/auth.service";
 import { useRouter } from "next/navigation";
-import { Signer } from "ethers";
 import Logo from "../../../public/photos/Logo.png"
 import Image from "next/image";
+
+import { ethers } from "ethers";
+import { Signer } from "ethers";
+
 
 const Transfer = () => {
   const [userRole, setUserRole] = useState("");
